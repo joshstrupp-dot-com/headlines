@@ -78,7 +78,7 @@ export function update() {
             isTransitioning = true;
             setTimeout(() => {
               fadeToNextRound();
-            }, 1000);
+            }, 0);
           }
         }
       }, 100);
